@@ -1,8 +1,6 @@
 def oxford_comma(array)
   str = ""
-  if array.length == 1
-    str += array[0]
-  elsif array.length == 2
+  if array.length == 2
     str += "#{array[0]} and #{array[1]}"
   else
     array.each_with_index do |ele, idx|
